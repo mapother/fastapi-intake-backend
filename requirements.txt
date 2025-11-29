@@ -1,0 +1,24 @@
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Database
+sqlmodel>=0.0.14
+sqlalchemy>=2.0.0
+
+# Authentication
+python-jose[cryptography]>=3.3.0
+argon2-cffi>=23.1.0
+python-multipart>=0.0.6
+
+# Environment
+python-dotenv>=1.0.0
+
+# Validation
+pydantic[email]>=2.5.0
+
+# Claude API
+anthropic>=0.18.0
+
+# CORS
+# (included in fastapi)
